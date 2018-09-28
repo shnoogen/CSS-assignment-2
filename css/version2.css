@@ -39,11 +39,12 @@ article {
 
 section {
     max-width: 600px;
+    flex: 1 1 0;
 }
 
 .photo {
-    margin-top: 50px;
-    margin-left: 50px;
+  margin-top: 50px;
+  margin-left: 50px;
 }
 
 .text {
@@ -100,9 +101,14 @@ footer {
 
 a {
     color: #379cb2;
-    text-decoration: none;
-    text-transform: uppercase;
 }
+
 a:hover {
     color: #82E8FF;
+}
+
+nav ul li a {
+    color: #379cb2;
+    text-decoration: none;
+    text-transform: uppercase;
 }
